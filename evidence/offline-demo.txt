@@ -1,0 +1,1541 @@
+OFFLINE DEMO: Groq text below is a test fixture, not a live model response.
+
+=== Natural language → search → price check → outfit → fit card ===
+{
+  "query": "I'm looking for a vintage graphic tee under $30",
+  "parsed": {
+    "description": "a vintage graphic tee",
+    "size": null,
+    "max_price": 30.0
+  },
+  "search_results": [
+    {
+      "id": "lst_006",
+      "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+      "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+      "category": "tops",
+      "style_tags": [
+        "graphic tee",
+        "vintage",
+        "grunge",
+        "streetwear",
+        "band tee"
+      ],
+      "size": "L",
+      "condition": "good",
+      "price": 24.0,
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_033",
+      "title": "Vintage Band Tee \u2014 Faded Grey",
+      "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "grunge",
+        "band tee",
+        "graphic tee",
+        "streetwear"
+      ],
+      "size": "L",
+      "condition": "fair",
+      "price": 19.0,
+      "colors": [
+        "grey",
+        "charcoal"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_015",
+      "title": "Vintage Graphic Hoodie \u2014 Faded Black",
+      "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "grunge",
+        "graphic",
+        "streetwear"
+      ],
+      "size": "L",
+      "condition": "fair",
+      "price": 26.0,
+      "colors": [
+        "black",
+        "charcoal"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_002",
+      "title": "Y2K Baby Tee \u2014 Butterfly Print",
+      "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+      "category": "tops",
+      "style_tags": [
+        "y2k",
+        "vintage",
+        "graphic tee",
+        "cottagecore"
+      ],
+      "size": "S/M",
+      "condition": "excellent",
+      "price": 18.0,
+      "colors": [
+        "white",
+        "pink",
+        "purple"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_012",
+      "title": "Oversized Crewneck Sweatshirt \u2014 Vintage Navy",
+      "description": "Perfectly faded navy crewneck. Genuinely vintage \u2014 not manufactured distressed. Ribbed cuffs and hem. No graphics, clean.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "basics",
+        "oversized",
+        "classic"
+      ],
+      "size": "XL (fits oversized)",
+      "condition": "good",
+      "price": 20.0,
+      "colors": [
+        "navy"
+      ],
+      "brand": null,
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_030",
+      "title": "Vintage Knit Vest \u2014 Argyle Brown/Cream",
+      "description": "Classic argyle knit vest in brown and cream. Fits medium. V-neck. Ideal for the dark academia or preppy vintage aesthetic.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "preppy",
+        "knitwear",
+        "dark academia",
+        "earth tones"
+      ],
+      "size": "M",
+      "condition": "good",
+      "price": 25.0,
+      "colors": [
+        "brown",
+        "cream",
+        "tan"
+      ],
+      "brand": null,
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_024",
+      "title": "Vintage Polo Shirt \u2014 Forest Green",
+      "description": "Classic polo in forest green. Short sleeve, ribbed collar. Slightly boxy. The kind of piece that goes with everything.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "preppy",
+        "classic",
+        "earth tones"
+      ],
+      "size": "M",
+      "condition": "good",
+      "price": 18.0,
+      "colors": [
+        "green",
+        "forest green"
+      ],
+      "brand": "Ralph Lauren",
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_014",
+      "title": "Leather Belt \u2014 Brown, Braided",
+      "description": "Genuine leather braided belt. Adjustable, multiple holes. Classic Western buckle. Can be dressed up or down.",
+      "category": "accessories",
+      "style_tags": [
+        "vintage",
+        "western",
+        "classic",
+        "earth tones"
+      ],
+      "size": "One Size (adjustable)",
+      "condition": "excellent",
+      "price": 12.0,
+      "colors": [
+        "brown"
+      ],
+      "brand": null,
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_034",
+      "title": "Bucket Hat \u2014 Reversible, Brown Plaid",
+      "description": "Reversible bucket hat \u2014 plaid on one side, solid tan on the other. Unstructured brim. One size fits most.",
+      "category": "accessories",
+      "style_tags": [
+        "90s",
+        "streetwear",
+        "vintage",
+        "accessories"
+      ],
+      "size": "One Size",
+      "condition": "excellent",
+      "price": 14.0,
+      "colors": [
+        "brown",
+        "tan",
+        "plaid"
+      ],
+      "brand": null,
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_017",
+      "title": "Mesh Long-Sleeve Top \u2014 Black",
+      "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+      "category": "tops",
+      "style_tags": [
+        "y2k",
+        "grunge",
+        "goth",
+        "layering"
+      ],
+      "size": "S/M",
+      "condition": "excellent",
+      "price": 15.0,
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_020",
+      "title": "Henley Long Sleeve \u2014 Washed Burgundy",
+      "description": "Soft washed henley in a rich burgundy. Three-button placket. Slightly shrunken/cropped fit. 100% cotton.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "basics",
+        "earth tones",
+        "classic"
+      ],
+      "size": "M",
+      "condition": "excellent",
+      "price": 16.0,
+      "colors": [
+        "burgundy",
+        "wine"
+      ],
+      "brand": null,
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_027",
+      "title": "Oversized College Crewneck \u2014 Faded Red",
+      "description": "Classic college-style crewneck in a beautifully faded red. No school name \u2014 just a plain athletic crewneck. Roomy fit.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "athletic",
+        "oversized",
+        "classic"
+      ],
+      "size": "XL",
+      "condition": "good",
+      "price": 21.0,
+      "colors": [
+        "red",
+        "faded red"
+      ],
+      "brand": null,
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_003",
+      "title": "Oversized Flannel Shirt \u2014 Plaid Red/Black",
+      "description": "Classic oversized flannel. Great layering piece. A few tiny pulls in the fabric but nothing visible when worn.",
+      "category": "tops",
+      "style_tags": [
+        "grunge",
+        "vintage",
+        "flannel",
+        "streetwear",
+        "layering"
+      ],
+      "size": "XL (oversized)",
+      "condition": "good",
+      "price": 22.0,
+      "colors": [
+        "red",
+        "black"
+      ],
+      "brand": "Woolrich",
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_016",
+      "title": "High-Waisted Denim Shorts \u2014 Cutoff",
+      "description": "DIY cutoff denim shorts from Levi's 501s. Raw hem, slightly frayed. High-waisted. Perfect summer length.",
+      "category": "bottoms",
+      "style_tags": [
+        "vintage",
+        "denim",
+        "summer",
+        "classic"
+      ],
+      "size": "W27",
+      "condition": "good",
+      "price": 24.0,
+      "colors": [
+        "light blue",
+        "blue"
+      ],
+      "brand": "Levi's",
+      "platform": "poshmark"
+    },
+    {
+      "id": "lst_038",
+      "title": "Denim Vest \u2014 Medium Wash, Studded",
+      "description": "Denim vest with silver stud detailing along the collar and pockets. Classic rock-inspired customization. Fits like a medium.",
+      "category": "outerwear",
+      "style_tags": [
+        "grunge",
+        "vintage",
+        "denim",
+        "customized",
+        "rock"
+      ],
+      "size": "M",
+      "condition": "good",
+      "price": 27.0,
+      "colors": [
+        "medium blue"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_029",
+      "title": "Silk Button-Down \u2014 Sage Green",
+      "description": "Loose silk (feel) button-down in sage green. Long sleeve, can be worn open as a layer or fully buttoned. Very flowy.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "minimal",
+        "earth tones",
+        "cottagecore"
+      ],
+      "size": "M",
+      "condition": "excellent",
+      "price": 28.0,
+      "colors": [
+        "sage",
+        "green"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_021",
+      "title": "Straight Leg Khaki Trousers \u2014 Olive",
+      "description": "Olive straight-leg trousers. High-waisted, with a center crease. Lightweight material, great for transitional weather.",
+      "category": "bottoms",
+      "style_tags": [
+        "earth tones",
+        "classic",
+        "minimal",
+        "vintage"
+      ],
+      "size": "W30",
+      "condition": "excellent",
+      "price": 29.0,
+      "colors": [
+        "olive",
+        "green"
+      ],
+      "brand": null,
+      "platform": "poshmark"
+    },
+    {
+      "id": "lst_013",
+      "title": "90s Silk Slip Dress \u2014 Floral, Midi Length",
+      "description": "Delicate 90s slip dress in a muted floral print. Midi length, adjustable straps. Light snag on the side seam \u2014 not visible when worn.",
+      "category": "bottoms",
+      "style_tags": [
+        "90s",
+        "vintage",
+        "feminine",
+        "floral",
+        "cottagecore"
+      ],
+      "size": "M",
+      "condition": "good",
+      "price": 30.0,
+      "colors": [
+        "ivory",
+        "dusty pink",
+        "green"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_037",
+      "title": "Straight Leg Black Jeans \u2014 Faded",
+      "description": "Faded black straight-leg jeans. Sits at the hips, classic fit. Slightly cropped length. No rips, just natural fading.",
+      "category": "bottoms",
+      "style_tags": [
+        "vintage",
+        "classic",
+        "grunge",
+        "denim"
+      ],
+      "size": "W28",
+      "condition": "good",
+      "price": 30.0,
+      "colors": [
+        "black",
+        "faded black"
+      ],
+      "brand": "Levi's",
+      "platform": "thredUp"
+    },
+    {
+      "id": "lst_011",
+      "title": "Low-Rise Cargo Pants \u2014 Khaki",
+      "description": "Y2K era low-rise cargo pants. Lots of pockets. Khaki color, slightly distressed at the hems. Great for layering with a long tee.",
+      "category": "bottoms",
+      "style_tags": [
+        "y2k",
+        "cargo",
+        "2000s",
+        "streetwear"
+      ],
+      "size": "W29",
+      "condition": "fair",
+      "price": 27.0,
+      "colors": [
+        "khaki",
+        "tan"
+      ],
+      "brand": null,
+      "platform": "poshmark"
+    }
+  ],
+  "selected_item": {
+    "id": "lst_006",
+    "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+    "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+    "category": "tops",
+    "style_tags": [
+      "graphic tee",
+      "vintage",
+      "grunge",
+      "streetwear",
+      "band tee"
+    ],
+    "size": "L",
+    "condition": "good",
+    "price": 24.0,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "depop"
+  },
+  "wardrobe": {
+    "items": [
+      {
+        "id": "w_001",
+        "name": "Baggy straight-leg jeans, dark wash",
+        "category": "bottoms",
+        "colors": [
+          "dark blue",
+          "indigo"
+        ],
+        "style_tags": [
+          "denim",
+          "streetwear",
+          "baggy"
+        ],
+        "notes": "High-waisted, sits above the hip"
+      },
+      {
+        "id": "w_002",
+        "name": "Wide-leg khaki trousers",
+        "category": "bottoms",
+        "colors": [
+          "khaki",
+          "tan"
+        ],
+        "style_tags": [
+          "earth tones",
+          "minimal",
+          "wide-leg"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_003",
+        "name": "White ribbed tank top",
+        "category": "tops",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "basics",
+          "minimal",
+          "fitted"
+        ],
+        "notes": "Goes with everything"
+      },
+      {
+        "id": "w_004",
+        "name": "Oversized grey crewneck sweatshirt",
+        "category": "tops",
+        "colors": [
+          "grey",
+          "charcoal"
+        ],
+        "style_tags": [
+          "oversized",
+          "basics",
+          "cozy"
+        ],
+        "notes": "Really oversized \u2014 drops below the hip"
+      },
+      {
+        "id": "w_005",
+        "name": "Black cropped zip hoodie",
+        "category": "tops",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "athletic",
+          "streetwear",
+          "cropped"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_006",
+        "name": "Vintage black denim jacket",
+        "category": "outerwear",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "denim",
+          "vintage",
+          "classic"
+        ],
+        "notes": "Slightly cropped"
+      },
+      {
+        "id": "w_007",
+        "name": "Chunky white sneakers",
+        "category": "shoes",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "sneakers",
+          "chunky",
+          "streetwear"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_008",
+        "name": "Black combat boots",
+        "category": "shoes",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "boots",
+          "grunge",
+          "classic"
+        ],
+        "notes": "Lace-up, mid-ankle height"
+      },
+      {
+        "id": "w_009",
+        "name": "Brown leather belt",
+        "category": "accessories",
+        "colors": [
+          "brown"
+        ],
+        "style_tags": [
+          "classic",
+          "earth tones",
+          "accessories"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_010",
+        "name": "Black crossbody bag",
+        "category": "accessories",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "minimal",
+          "accessories",
+          "everyday"
+        ],
+        "notes": null
+      }
+    ]
+  },
+  "outfit_suggestion": "Pair the selected graphic tee with Baggy straight-leg jeans, dark wash and Chunky white sneakers. Layer Vintage black denim jacket for a relaxed streetwear look.",
+  "fit_card": "Thrifted graphic tee meets baggy dark-wash denim and chunky white sneakers. An easy vintage streetwear fit.",
+  "error": null,
+  "notices": [],
+  "search_attempts": [
+    {
+      "description": "a vintage graphic tee",
+      "size": null,
+      "max_price": 30.0,
+      "count": 20
+    }
+  ],
+  "tool_calls": [
+    "search_listings",
+    "compare_prices",
+    "suggest_outfit",
+    "create_fit_card"
+  ],
+  "price_comparison": {
+    "status": "ok",
+    "comparable_ids": [
+      "lst_002",
+      "lst_003",
+      "lst_012",
+      "lst_015",
+      "lst_017",
+      "lst_020",
+      "lst_024",
+      "lst_027",
+      "lst_029",
+      "lst_030",
+      "lst_033",
+      "lst_040"
+    ],
+    "count": 12,
+    "median_price": 19.5,
+    "difference_pct": 23.1,
+    "verdict": "above typical",
+    "message": "Above typical: $24.00 versus $19.50 median across 12 comparable mock listings. Condition, brand, shipping and measurements may differ."
+  },
+  "trends": null
+}
+
+=== Empty size search → bounded retry; unchanged budget ===
+{
+  "query": "graphic tee size XXS under $30",
+  "parsed": {
+    "description": "graphic tee",
+    "size": "XXS",
+    "max_price": 30.0
+  },
+  "search_results": [
+    {
+      "id": "lst_006",
+      "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+      "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+      "category": "tops",
+      "style_tags": [
+        "graphic tee",
+        "vintage",
+        "grunge",
+        "streetwear",
+        "band tee"
+      ],
+      "size": "L",
+      "condition": "good",
+      "price": 24.0,
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_002",
+      "title": "Y2K Baby Tee \u2014 Butterfly Print",
+      "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+      "category": "tops",
+      "style_tags": [
+        "y2k",
+        "vintage",
+        "graphic tee",
+        "cottagecore"
+      ],
+      "size": "S/M",
+      "condition": "excellent",
+      "price": 18.0,
+      "colors": [
+        "white",
+        "pink",
+        "purple"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_033",
+      "title": "Vintage Band Tee \u2014 Faded Grey",
+      "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "grunge",
+        "band tee",
+        "graphic tee",
+        "streetwear"
+      ],
+      "size": "L",
+      "condition": "fair",
+      "price": 19.0,
+      "colors": [
+        "grey",
+        "charcoal"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_015",
+      "title": "Vintage Graphic Hoodie \u2014 Faded Black",
+      "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "grunge",
+        "graphic",
+        "streetwear"
+      ],
+      "size": "L",
+      "condition": "fair",
+      "price": 26.0,
+      "colors": [
+        "black",
+        "charcoal"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_017",
+      "title": "Mesh Long-Sleeve Top \u2014 Black",
+      "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+      "category": "tops",
+      "style_tags": [
+        "y2k",
+        "grunge",
+        "goth",
+        "layering"
+      ],
+      "size": "S/M",
+      "condition": "excellent",
+      "price": 15.0,
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_011",
+      "title": "Low-Rise Cargo Pants \u2014 Khaki",
+      "description": "Y2K era low-rise cargo pants. Lots of pockets. Khaki color, slightly distressed at the hems. Great for layering with a long tee.",
+      "category": "bottoms",
+      "style_tags": [
+        "y2k",
+        "cargo",
+        "2000s",
+        "streetwear"
+      ],
+      "size": "W29",
+      "condition": "fair",
+      "price": 27.0,
+      "colors": [
+        "khaki",
+        "tan"
+      ],
+      "brand": null,
+      "platform": "poshmark"
+    }
+  ],
+  "selected_item": {
+    "id": "lst_006",
+    "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+    "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+    "category": "tops",
+    "style_tags": [
+      "graphic tee",
+      "vintage",
+      "grunge",
+      "streetwear",
+      "band tee"
+    ],
+    "size": "L",
+    "condition": "good",
+    "price": 24.0,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "depop"
+  },
+  "wardrobe": {
+    "items": [
+      {
+        "id": "w_001",
+        "name": "Baggy straight-leg jeans, dark wash",
+        "category": "bottoms",
+        "colors": [
+          "dark blue",
+          "indigo"
+        ],
+        "style_tags": [
+          "denim",
+          "streetwear",
+          "baggy"
+        ],
+        "notes": "High-waisted, sits above the hip"
+      },
+      {
+        "id": "w_002",
+        "name": "Wide-leg khaki trousers",
+        "category": "bottoms",
+        "colors": [
+          "khaki",
+          "tan"
+        ],
+        "style_tags": [
+          "earth tones",
+          "minimal",
+          "wide-leg"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_003",
+        "name": "White ribbed tank top",
+        "category": "tops",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "basics",
+          "minimal",
+          "fitted"
+        ],
+        "notes": "Goes with everything"
+      },
+      {
+        "id": "w_004",
+        "name": "Oversized grey crewneck sweatshirt",
+        "category": "tops",
+        "colors": [
+          "grey",
+          "charcoal"
+        ],
+        "style_tags": [
+          "oversized",
+          "basics",
+          "cozy"
+        ],
+        "notes": "Really oversized \u2014 drops below the hip"
+      },
+      {
+        "id": "w_005",
+        "name": "Black cropped zip hoodie",
+        "category": "tops",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "athletic",
+          "streetwear",
+          "cropped"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_006",
+        "name": "Vintage black denim jacket",
+        "category": "outerwear",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "denim",
+          "vintage",
+          "classic"
+        ],
+        "notes": "Slightly cropped"
+      },
+      {
+        "id": "w_007",
+        "name": "Chunky white sneakers",
+        "category": "shoes",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "sneakers",
+          "chunky",
+          "streetwear"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_008",
+        "name": "Black combat boots",
+        "category": "shoes",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "boots",
+          "grunge",
+          "classic"
+        ],
+        "notes": "Lace-up, mid-ankle height"
+      },
+      {
+        "id": "w_009",
+        "name": "Brown leather belt",
+        "category": "accessories",
+        "colors": [
+          "brown"
+        ],
+        "style_tags": [
+          "classic",
+          "earth tones",
+          "accessories"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_010",
+        "name": "Black crossbody bag",
+        "category": "accessories",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "minimal",
+          "accessories",
+          "everyday"
+        ],
+        "notes": null
+      }
+    ]
+  },
+  "outfit_suggestion": "Pair the selected graphic tee with Baggy straight-leg jeans, dark wash and Chunky white sneakers. Layer Vintage black denim jacket for a relaxed streetwear look.",
+  "fit_card": "Thrifted graphic tee meets baggy dark-wash denim and chunky white sneakers. An easy vintage streetwear fit.",
+  "error": null,
+  "notices": [
+    "No exact-size matches for XXS. Retrying once without the size filter; your budget is unchanged. Check the returned size and seller measurements before buying.",
+    "Selected listing size: L; requested: XXS."
+  ],
+  "search_attempts": [
+    {
+      "description": "graphic tee",
+      "size": "XXS",
+      "max_price": 30.0,
+      "count": 0
+    },
+    {
+      "description": "graphic tee",
+      "size": null,
+      "max_price": 30.0,
+      "count": 6
+    }
+  ],
+  "tool_calls": [
+    "search_listings",
+    "search_listings",
+    "compare_prices",
+    "suggest_outfit",
+    "create_fit_card"
+  ],
+  "price_comparison": {
+    "status": "ok",
+    "comparable_ids": [
+      "lst_002",
+      "lst_003",
+      "lst_012",
+      "lst_015",
+      "lst_017",
+      "lst_020",
+      "lst_024",
+      "lst_027",
+      "lst_029",
+      "lst_030",
+      "lst_033",
+      "lst_040"
+    ],
+    "count": 12,
+    "median_price": 19.5,
+    "difference_pct": 23.1,
+    "verdict": "above typical",
+    "message": "Above typical: $24.00 versus $19.50 median across 12 comparable mock listings. Condition, brand, shipping and measurements may differ."
+  },
+  "trends": null
+}
+
+=== No results → early stop ===
+{
+  "query": "designer ballgown size XXS under $5",
+  "parsed": {
+    "description": "designer ballgown",
+    "size": "XXS",
+    "max_price": 5.0
+  },
+  "search_results": [],
+  "selected_item": null,
+  "wardrobe": {
+    "items": [
+      {
+        "id": "w_001",
+        "name": "Baggy straight-leg jeans, dark wash",
+        "category": "bottoms",
+        "colors": [
+          "dark blue",
+          "indigo"
+        ],
+        "style_tags": [
+          "denim",
+          "streetwear",
+          "baggy"
+        ],
+        "notes": "High-waisted, sits above the hip"
+      },
+      {
+        "id": "w_002",
+        "name": "Wide-leg khaki trousers",
+        "category": "bottoms",
+        "colors": [
+          "khaki",
+          "tan"
+        ],
+        "style_tags": [
+          "earth tones",
+          "minimal",
+          "wide-leg"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_003",
+        "name": "White ribbed tank top",
+        "category": "tops",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "basics",
+          "minimal",
+          "fitted"
+        ],
+        "notes": "Goes with everything"
+      },
+      {
+        "id": "w_004",
+        "name": "Oversized grey crewneck sweatshirt",
+        "category": "tops",
+        "colors": [
+          "grey",
+          "charcoal"
+        ],
+        "style_tags": [
+          "oversized",
+          "basics",
+          "cozy"
+        ],
+        "notes": "Really oversized \u2014 drops below the hip"
+      },
+      {
+        "id": "w_005",
+        "name": "Black cropped zip hoodie",
+        "category": "tops",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "athletic",
+          "streetwear",
+          "cropped"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_006",
+        "name": "Vintage black denim jacket",
+        "category": "outerwear",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "denim",
+          "vintage",
+          "classic"
+        ],
+        "notes": "Slightly cropped"
+      },
+      {
+        "id": "w_007",
+        "name": "Chunky white sneakers",
+        "category": "shoes",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "sneakers",
+          "chunky",
+          "streetwear"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_008",
+        "name": "Black combat boots",
+        "category": "shoes",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "boots",
+          "grunge",
+          "classic"
+        ],
+        "notes": "Lace-up, mid-ankle height"
+      },
+      {
+        "id": "w_009",
+        "name": "Brown leather belt",
+        "category": "accessories",
+        "colors": [
+          "brown"
+        ],
+        "style_tags": [
+          "classic",
+          "earth tones",
+          "accessories"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_010",
+        "name": "Black crossbody bag",
+        "category": "accessories",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "minimal",
+          "accessories",
+          "everyday"
+        ],
+        "notes": null
+      }
+    ]
+  },
+  "outfit_suggestion": null,
+  "fit_card": null,
+  "error": "I couldn't find listings matching \"designer ballgown\" (size XXS, under $5). Try a broader description, a different size, or a higher price limit.",
+  "notices": [
+    "No exact-size matches for XXS. Retrying once without the size filter; your budget is unchanged. Check the returned size and seller measurements before buying."
+  ],
+  "search_attempts": [
+    {
+      "description": "designer ballgown",
+      "size": "XXS",
+      "max_price": 5.0,
+      "count": 0
+    },
+    {
+      "description": "designer ballgown",
+      "size": null,
+      "max_price": 5.0,
+      "count": 0
+    }
+  ],
+  "tool_calls": [
+    "search_listings",
+    "search_listings"
+  ],
+  "price_comparison": null,
+  "trends": null
+}
+
+DELIBERATE FAILURE: model call raises RuntimeError; no fit-card call should follow.
+
+=== Actionable API failure, selected item retained ===
+{
+  "query": "graphic tee under $30",
+  "parsed": {
+    "description": "graphic tee",
+    "size": null,
+    "max_price": 30.0
+  },
+  "search_results": [
+    {
+      "id": "lst_006",
+      "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+      "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+      "category": "tops",
+      "style_tags": [
+        "graphic tee",
+        "vintage",
+        "grunge",
+        "streetwear",
+        "band tee"
+      ],
+      "size": "L",
+      "condition": "good",
+      "price": 24.0,
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_002",
+      "title": "Y2K Baby Tee \u2014 Butterfly Print",
+      "description": "Super cute early 2000s baby tee with butterfly graphic. Fitted crop length. Tag says medium but fits like a small.",
+      "category": "tops",
+      "style_tags": [
+        "y2k",
+        "vintage",
+        "graphic tee",
+        "cottagecore"
+      ],
+      "size": "S/M",
+      "condition": "excellent",
+      "price": 18.0,
+      "colors": [
+        "white",
+        "pink",
+        "purple"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_033",
+      "title": "Vintage Band Tee \u2014 Faded Grey",
+      "description": "Faded grey band-style tee with distressed graphic. Crew neck. Fits boxy. Well-loved but no holes or major damage.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "grunge",
+        "band tee",
+        "graphic tee",
+        "streetwear"
+      ],
+      "size": "L",
+      "condition": "fair",
+      "price": 19.0,
+      "colors": [
+        "grey",
+        "charcoal"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_015",
+      "title": "Vintage Graphic Hoodie \u2014 Faded Black",
+      "description": "Faded black pullover hoodie with barely-visible vintage graphic on the chest. Cozy interior. Some pilling but adds to the worn-in look.",
+      "category": "tops",
+      "style_tags": [
+        "vintage",
+        "grunge",
+        "graphic",
+        "streetwear"
+      ],
+      "size": "L",
+      "condition": "fair",
+      "price": 26.0,
+      "colors": [
+        "black",
+        "charcoal"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_017",
+      "title": "Mesh Long-Sleeve Top \u2014 Black",
+      "description": "Sheer black mesh long-sleeve. Great for layering under a graphic tee or over a bralette. Stretchy material, fits true to size.",
+      "category": "tops",
+      "style_tags": [
+        "y2k",
+        "grunge",
+        "goth",
+        "layering"
+      ],
+      "size": "S/M",
+      "condition": "excellent",
+      "price": 15.0,
+      "colors": [
+        "black"
+      ],
+      "brand": null,
+      "platform": "depop"
+    },
+    {
+      "id": "lst_011",
+      "title": "Low-Rise Cargo Pants \u2014 Khaki",
+      "description": "Y2K era low-rise cargo pants. Lots of pockets. Khaki color, slightly distressed at the hems. Great for layering with a long tee.",
+      "category": "bottoms",
+      "style_tags": [
+        "y2k",
+        "cargo",
+        "2000s",
+        "streetwear"
+      ],
+      "size": "W29",
+      "condition": "fair",
+      "price": 27.0,
+      "colors": [
+        "khaki",
+        "tan"
+      ],
+      "brand": null,
+      "platform": "poshmark"
+    }
+  ],
+  "selected_item": {
+    "id": "lst_006",
+    "title": "Graphic Tee \u2014 2003 Tour Bootleg Style",
+    "description": "Vintage-style bootleg tee with faded graphic. Slightly boxy fit. 100% cotton, soft and worn-in.",
+    "category": "tops",
+    "style_tags": [
+      "graphic tee",
+      "vintage",
+      "grunge",
+      "streetwear",
+      "band tee"
+    ],
+    "size": "L",
+    "condition": "good",
+    "price": 24.0,
+    "colors": [
+      "black"
+    ],
+    "brand": null,
+    "platform": "depop"
+  },
+  "wardrobe": {
+    "items": [
+      {
+        "id": "w_001",
+        "name": "Baggy straight-leg jeans, dark wash",
+        "category": "bottoms",
+        "colors": [
+          "dark blue",
+          "indigo"
+        ],
+        "style_tags": [
+          "denim",
+          "streetwear",
+          "baggy"
+        ],
+        "notes": "High-waisted, sits above the hip"
+      },
+      {
+        "id": "w_002",
+        "name": "Wide-leg khaki trousers",
+        "category": "bottoms",
+        "colors": [
+          "khaki",
+          "tan"
+        ],
+        "style_tags": [
+          "earth tones",
+          "minimal",
+          "wide-leg"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_003",
+        "name": "White ribbed tank top",
+        "category": "tops",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "basics",
+          "minimal",
+          "fitted"
+        ],
+        "notes": "Goes with everything"
+      },
+      {
+        "id": "w_004",
+        "name": "Oversized grey crewneck sweatshirt",
+        "category": "tops",
+        "colors": [
+          "grey",
+          "charcoal"
+        ],
+        "style_tags": [
+          "oversized",
+          "basics",
+          "cozy"
+        ],
+        "notes": "Really oversized \u2014 drops below the hip"
+      },
+      {
+        "id": "w_005",
+        "name": "Black cropped zip hoodie",
+        "category": "tops",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "athletic",
+          "streetwear",
+          "cropped"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_006",
+        "name": "Vintage black denim jacket",
+        "category": "outerwear",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "denim",
+          "vintage",
+          "classic"
+        ],
+        "notes": "Slightly cropped"
+      },
+      {
+        "id": "w_007",
+        "name": "Chunky white sneakers",
+        "category": "shoes",
+        "colors": [
+          "white"
+        ],
+        "style_tags": [
+          "sneakers",
+          "chunky",
+          "streetwear"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_008",
+        "name": "Black combat boots",
+        "category": "shoes",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "boots",
+          "grunge",
+          "classic"
+        ],
+        "notes": "Lace-up, mid-ankle height"
+      },
+      {
+        "id": "w_009",
+        "name": "Brown leather belt",
+        "category": "accessories",
+        "colors": [
+          "brown"
+        ],
+        "style_tags": [
+          "classic",
+          "earth tones",
+          "accessories"
+        ],
+        "notes": null
+      },
+      {
+        "id": "w_010",
+        "name": "Black crossbody bag",
+        "category": "accessories",
+        "colors": [
+          "black"
+        ],
+        "style_tags": [
+          "minimal",
+          "accessories",
+          "everyday"
+        ],
+        "notes": null
+      }
+    ]
+  },
+  "outfit_suggestion": "I couldn't generate an outfit suggestion. Check GROQ_API_KEY and GROQ_MODEL in .env, your connection, and Groq limits; then retry.",
+  "fit_card": null,
+  "error": "I couldn't generate an outfit suggestion. Check GROQ_API_KEY and GROQ_MODEL in .env, your connection, and Groq limits; then retry.",
+  "notices": [],
+  "search_attempts": [
+    {
+      "description": "graphic tee",
+      "size": null,
+      "max_price": 30.0,
+      "count": 6
+    }
+  ],
+  "tool_calls": [
+    "search_listings",
+    "compare_prices",
+    "suggest_outfit"
+  ],
+  "price_comparison": {
+    "status": "ok",
+    "comparable_ids": [
+      "lst_002",
+      "lst_003",
+      "lst_012",
+      "lst_015",
+      "lst_017",
+      "lst_020",
+      "lst_024",
+      "lst_027",
+      "lst_029",
+      "lst_030",
+      "lst_033",
+      "lst_040"
+    ],
+    "count": 12,
+    "median_price": 19.5,
+    "difference_pct": 23.1,
+    "verdict": "above typical",
+    "message": "Above typical: $24.00 versus $19.50 median across 12 comparable mock listings. Condition, brand, shipping and measurements may differ."
+  },
+  "trends": null
+}
+
+EMPTY FIT CARD INPUT: I need a complete outfit suggestion before I can create a fit card.

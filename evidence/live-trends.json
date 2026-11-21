@@ -1,0 +1,82 @@
+{
+  "status": "ok",
+  "source": "https://www.whowhatwear.com/feeds.xml",
+  "checked_at": "2026-11-17T22:31:17.809914+00:00",
+  "window_days": 30,
+  "size": "M",
+  "posts_checked": 50,
+  "trends": [
+    {
+      "style": "classic",
+      "post_count": 3,
+      "listing_ids": [
+        "lst_018",
+        "lst_020",
+        "lst_022",
+        "lst_024",
+        "lst_032"
+      ],
+      "sources": [
+        {
+          "title": " Leighton Meester Can't Resist a Good Holiday Classic\u2014That's Why She's Starring in One ",
+          "url": "https://www.whowhatwear.com/fashion/celebrity/leighton-meester-guarding-stars-interview-2026",
+          "published_at": "2026-11-17T16:00:00+00:00"
+        },
+        {
+          "title": " I Just Built the Most Elegant Winter Capsule\u20149 Classic Pieces That Made It Easy ",
+          "url": "https://www.whowhatwear.com/fashion/winter/classic-winter-pieces-2026",
+          "published_at": "2026-11-17T07:15:00+00:00"
+        },
+        {
+          "title": " It's Time to Update My Winter Basics\u201435 Classic Items I'm Loving From Nordstrom, Shopbop, and Revolve ",
+          "url": "https://www.whowhatwear.com/fashion/shopping/winter-basics-nordstrom-shopbop-revolve",
+          "published_at": "2026-11-16T10:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "style": "basics",
+      "post_count": 1,
+      "listing_ids": [
+        "lst_020"
+      ],
+      "sources": [
+        {
+          "title": " It's Time to Update My Winter Basics\u201435 Classic Items I'm Loving From Nordstrom, Shopbop, and Revolve ",
+          "url": "https://www.whowhatwear.com/fashion/shopping/winter-basics-nordstrom-shopbop-revolve",
+          "published_at": "2026-11-16T10:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "style": "leather",
+      "post_count": 1,
+      "listing_ids": [
+        "lst_022"
+      ],
+      "sources": [
+        {
+          "title": " The Streets Have Spoken: Fashion Insiders Are Trialling This Unexpected Shoe Trend Over \"Boring\" Black Leather ",
+          "url": "https://www.whowhatwear.com/fashion/shoes/zebra-print-shoe-trend",
+          "published_at": "2026-11-17T07:35:00+00:00"
+        }
+      ]
+    },
+    {
+      "style": "y2k",
+      "post_count": 1,
+      "listing_ids": [
+        "lst_002",
+        "lst_017"
+      ],
+      "sources": [
+        {
+          "title": " Kristina Bogic and Geena Meszaros on the Making of Netflix's The Body ",
+          "url": "https://www.whowhatwear.com/fashion/celebrity/the-body-netflix-kristina-bogic-geena-meszaros",
+          "published_at": "2026-11-17T19:49:07+00:00"
+        }
+      ]
+    }
+  ],
+  "message": "Recent editorial mentions on Who What Wear, matched to mock inventory in your requested size. Counts reflect this feed sample, not global popularity or the authors' sizes."
+}

@@ -7,7 +7,8 @@ natural language user query, passing state between them via a session dict.
 
 import re
 
-from tools import search_listings, suggest_outfit, create_fit_card
+from tools import search_listings, suggest_outfit, create_fit_card, compare_prices, check_trends
+from profiles import validate_profile
 
 
 def _new_session(query: str, wardrobe: dict) -> dict:
@@ -21,6 +22,11 @@ def _new_session(query: str, wardrobe: dict) -> dict:
         "outfit_suggestion": None,
         "fit_card": None,
         "error": None,
+        "notices": [],
+        "search_attempts": [],
+        "tool_calls": [],
+        "price_comparison": None,
+        "trends": None,
     }
 
 
@@ -72,7 +78,8 @@ def _tool_returned_error(value: str) -> bool:
     return lowered.startswith("i need ") or lowered.startswith("i couldn't ")
 
 
-def run_agent(query: str, wardrobe: dict) -> dict:
+def run_agent(query: str, wardrobe: dict, profile: dict | None = None,
+              include_trends: bool = False) -> dict:
     """
     Run the conditional FitFindr planning loop and return the completed session.
     """
@@ -82,16 +89,37 @@ def run_agent(query: str, wardrobe: dict) -> dict:
         session["error"] = "Please describe the secondhand item you're looking for."
         return session
 
+    if profile is not None:
+        try:
+            profile = validate_profile(profile)
+        except (ValueError, TypeError):
+            session["error"] = "Saved profile is invalid. Correct the wardrobe, size and budget, then save again."
+            return session
+        session["wardrobe"] = {**profile["wardrobe"],
+                               "style_preferences": profile["style_preferences"]}
+
     # Step 1: parse the user's natural-language constraints.
     session["parsed"] = _parse_query(query)
 
     # Step 2: search. The next step depends on whether this succeeds.
     parsed = session["parsed"]
+    if profile:
+        for key in ("size", "max_price"):
+            if parsed[key] is None:
+                parsed[key] = profile.get(key)
+    session["tool_calls"].append("search_listings")
     results = search_listings(
         parsed["description"],
         size=parsed["size"],
         max_price=parsed["max_price"],
     )
+    session["search_attempts"].append({**parsed, "count": len(results)})
+    if not results and parsed["size"]:
+        session["notices"].append(
+            f"No exact-size matches for {parsed['size']}. Retrying once without the size filter; your budget is unchanged. Check the returned size and seller measurements before buying.")
+        session["tool_calls"].append("search_listings")
+        results = search_listings(parsed["description"], size=None, max_price=parsed["max_price"])
+        session["search_attempts"].append({**parsed, "size": None, "count": len(results)})
     session["search_results"] = results
 
     if not results:
@@ -110,7 +138,16 @@ def run_agent(query: str, wardrobe: dict) -> dict:
     # Step 3: put the selected search result into shared state.
     session["selected_item"] = results[0]
 
+    session["tool_calls"].append("compare_prices")
+    session["price_comparison"] = compare_prices(session["selected_item"])
+    if include_trends:
+        session["tool_calls"].append("check_trends")
+        session["trends"] = check_trends(parsed["size"])
+    if len(session["search_attempts"]) > 1:
+        session["notices"].append(f"Selected listing size: {session['selected_item']['size']}; requested: {parsed['size']}.")
+
     # Step 4: use that same state value for styling.
+    session["tool_calls"].append("suggest_outfit")
     outfit = suggest_outfit(session["selected_item"], session["wardrobe"])
     session["outfit_suggestion"] = outfit
     if not outfit or _tool_returned_error(outfit):
@@ -118,10 +155,12 @@ def run_agent(query: str, wardrobe: dict) -> dict:
         return session
 
     # Step 5: use both prior tool outputs to create the final artifact.
+    session["tool_calls"].append("create_fit_card")
     fit_card = create_fit_card(session["outfit_suggestion"], session["selected_item"])
-    session["fit_card"] = fit_card
     if not fit_card or _tool_returned_error(fit_card):
-        session["error"] = fit_card or "I couldn't create the fit card."
+        session["error"] = fit_card or "I couldn't create the fit card. Please retry."
+    else:
+        session["fit_card"] = fit_card
 
     return session
 
